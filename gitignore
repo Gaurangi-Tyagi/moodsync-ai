@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environments
+moodsync/
+.env
+.venv
+conda/
+
+# Models (too large for GitHub)
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.pkl
+
+# Data (too large for GitHub)
+data/emotion_dataset/
+data/*.zip
+data/*.csv
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Gradio
+flagged/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
